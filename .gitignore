@@ -1,0 +1,25 @@
+# Arquivos de compilação Python
+*.pyc
+__pycache__/
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+ENV/
+
+# Arquivos de registro e caches
+logs/
+*.log
+*.cache
+
+# Arquivos de configuração e segredos
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Arquivos de dependências e builds
+node_modules/
+*.env.local
+.vercel

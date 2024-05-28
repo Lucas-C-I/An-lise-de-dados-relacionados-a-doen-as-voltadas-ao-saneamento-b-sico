@@ -1,0 +1,166 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+h2 {
+  margin: 10px 0px;
+}
+
+h5 {
+  margin: 0;
+  text-align: center;
+}
+
+#title-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.theme-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 8%;
+  margin-right: 16%;
+  cursor: pointer;
+}
+
+/* Estilo da tabela */
+#first-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 150px;
+  height: 80%;
+}
+
+#table-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#datatable-content {
+  margin: 0 20px;
+  flex-direction: initial;
+}
+
+#drop-map-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+#dropdown-map-filter {
+  width: 700px;
+}
+
+/* Estilo do gráfico */
+#histogram-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 150px;
+}
+
+#graph-content {
+  width: 100%;
+  height: 310px;
+}
+
+#uf-dropdown {
+  width: 100%;
+}
+
+/* Estilo do dropdown personalizado */
+.dropdown-style {
+  /* Largura do dropdown */
+  width: 100%;
+}
+
+/* Estilo do dropdown quando expandido */
+.dropdown-style .Select-control {
+  background-color: #1f1f1f; /* Cor de fundo */
+  border: 2px solid #333; /* Borda */
+  border-radius: 5px; /* Borda arredondada */
+}
+
+/* Estilo dos itens do dropdown */
+.dropdown-style .Select-menu-outer {
+  background-color: #1f1f1f; /* Cor de fundo do menu */
+}
+
+/* Estilo dos itens do dropdown quando selecionados */
+.dropdown-style .Select-option {
+  color: #fff; /* Cor do texto */
+  background-color: #333; /* Cor de fundo */
+}
+
+/* Estilo dos itens do dropdown ao passar o mouse */
+.dropdown-style .Select-option:hover {
+  background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
+@media screen and (max-width: 1400px) {
+  #title-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .theme-img {
+    margin: 20px 0;
+  }
+
+  #first-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  #table-content {
+    width: 100%;
+    margin: 0;
+  }
+
+  #histogram-content {
+    width: 100%;
+    margin: 0;
+  }
+  #dropdown-map-filter {
+    width: 100%;
+  }
+
+  #drop-map-content {
+    width: max-content;
+  }
+
+  #map-content {
+    width: max-content;
+  }
+
+  .cell-table th:nth-child(2),
+  .cell-table td:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  #drop-map-content {
+    width: max-content;
+  }
+  #map-content {
+    width: 100%;
+  }
+}
