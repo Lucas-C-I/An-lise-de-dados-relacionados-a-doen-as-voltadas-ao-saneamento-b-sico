@@ -1,4 +1,4 @@
-# Dash Plotly App
+# Sanitation Health Analysis
 
 Este é um projeto de aplicativo web construído com Dash e Plotly, usado para visualizar dados relacionados a doenças relacionadas ao saneamento básico no Brasil, com base nos dados do IBGE.
 
